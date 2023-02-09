@@ -1,0 +1,112 @@
+#for{
+    margin-bottom: 168px;
+}
+.for__content{
+    padding-top: 88px;
+    padding-bottom: 176px;
+    background-color: #2C343E;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.for__tittle{
+    max-width: 517px;
+    margin-left: 85px;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;      
+}
+.for__text{
+    max-width: 540px;
+    font-family: 'Barlow';
+    margin-left: 85px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;  
+}
+.for__img{
+    max-width: 445px;
+    height: 474px;
+    margin-top: -176px;
+}
+.for__img2{
+    max-width: 573px;
+    height: 320px;
+    margin-top: -260px;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+}
+@media only screen and (max-width:1130px){
+        
+    .for__content{
+        padding-top: 88px;
+        padding-bottom: 176px;
+        background-color: #2C343E;
+        border-radius: 10px;
+        display: block;
+        position: relative;
+    }
+    .for__tittle{
+        max-width: 413px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 64px;
+        margin-bottom: 24px;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+        color: #FEFCF7;      
+    }
+    .for__text{
+        max-width: 540px;
+        font-family: 'Barlow';
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;  
+    }
+    .for__img{
+        display: none;
+    }
+    .for__img2{
+        display: block;
+    }
+}
+@media only screen and (max-width:650px){
+    .for__tittle{
+        max-width: 270px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 64px;
+        margin-bottom: 24px;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 28px;
+        color: #FEFCF7;      
+    }
+    .for__text{
+        max-width: 279px;
+        font-family: 'Barlow';
+        margin-left: auto;
+        margin-right: auto;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FEFCF7;  
+    }
+    .for__img2{
+        display: block;
+        max-width: 279px;
+        height: 156px;
+        margin-top: -178px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
